@@ -42,7 +42,7 @@ public class Main {
 			}
 
 			QMinus1 = Q & 1;
-			Q = (Q >>> 1) /* Não mantém o sinal */ | (A << 31);
+			Q = (Q >>> 1) /* Nï¿½o mantï¿½m o sinal */ | (A << 31);
 			A = A >> 1; // Mantem o sinal
 		}
 
@@ -94,7 +94,7 @@ public class Main {
 		long multiply2 = main.multiply(-9, 5);
 		long multiply3 = main.multiply(9, -5);
 		
-		System.out.println("==== Multiplicações ====");
+		System.out.println("==== MultiplicaÃ§Ãµes ====");
 
 		System.out.println("9 * 5 = " + multiply1);
 		System.out.println("-9 * 5 = " + multiply2);
@@ -105,7 +105,7 @@ public class Main {
 		DivisionResult divide3 = main.divide(49, -5);
 		DivisionResult divide4 = main.divide(-49, -5);
 		
-		System.out.println("\n==== Divisões ====");
+		System.out.println("\n==== DivisÃµes ====");
 
 		System.out.println("49 / 5 = " + divide1.quotient + " : 49 % 5 = " + divide1.remainder);
 		System.out.println("-49 / 5 = " + divide2.quotient + " : -49 % 5 = " + divide2.remainder);
